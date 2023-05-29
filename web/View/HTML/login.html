@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Lin&Sup-style.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="button">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
+            </div>
+
+            <form action ="selectrole" id="log-in" class="input-group" method="post">
+                <input type="text" class="input-field" placeholder="Usermail" name = "usermail" required>
+                <input type="text" class="input-field" placeholder="Password" name = "password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log IN</button>
+            </form>
+
+            <form action ="register" id="sign-up" class="input-group" method="post">
+                <input type="text" class="input-field" placeholder="Username" name="username" required>
+                <input type="text" class="input-field" placeholder="Usermail" name="usermail" required>
+                <input type="password" class="input-field" placeholder="Password" name="password" required>
+                <input type="text" class="input-field" name="role" value="customer" readonly>
+                <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <!--Scripts-->
+    <script src="../JavaScript/l-in&s-up.js"></script>
+</body>
+</html>

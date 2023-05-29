@@ -1,0 +1,11 @@
+SMAP
+addcustomer_jsp.java
+JSP
+*S JSP
+*F
++ 0 addcustomer.jsp
+View/JSP/admin/addcustomer.jsp
+*L
+1,9:47
+9,25:56
+*E
