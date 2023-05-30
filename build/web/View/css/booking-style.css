@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(223, 203, 203);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 20px 10px 20px;
+}
+.title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.title h1{
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 15px;
+}
+.title h1 span{
+    color: crimson;
+}
+h2{
+    padding-left: 5%;
+}
+
+.room, .hall{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+@media(max-width: 600px){
+    .room, .hall{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.card{
+    position: relative;
+    width: 420px;
+    height: 250px;
+    background-color: crimson;
+    color: #242329;
+    text-align: center;
+    border: 5px solid #fff;
+    overflow: hidden;
+}
+.card-data{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-250px);
+    transition: transform .5s;
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .25s .35s;
+}
+.card-title{
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px;
+    background-color: crimson;
+    margin-top: 25px;
+}
+.card-discription{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.card-btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #242329;
+    background-color: #fff;
+    transition: background-color.25s;
+}
+.card-btn:hover{
+    background-color: #242329;
+    color: #fff;
+}
+.card:hover .card-data{
+    transform: translateY(0px);
+}
+.card:hover .card-img{
+    transform: translateX(420px);
+    transition-delay: 0s;
+}
+
+.header, .room{
+    padding-bottom: 5%;
+}
+
+.header .navigation ul li a{
+    color: crimson;
+}
+.header .navigation ul li a:hover{
+    color: rgb(233, 221, 223);
+    background-color: crimson;
+}

@@ -1,0 +1,20 @@
+SMAP
+viewprofile_jsp.java
+JSP
+*S JSP
+*F
++ 0 viewprofile.jsp
+View/JSP/reception/viewprofile.jsp
+*L
+1,10:50
+10:60
+12,18:62
+29,24:80
+53:104,3
+54,7:107
+61:114,3
+62,7:117
+69:124,3
+70,22:127
+91:149
+*E

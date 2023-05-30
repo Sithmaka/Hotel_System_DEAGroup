@@ -1,0 +1,90 @@
+*
+body{
+    font-family:'Verdana';
+    padding: 0;
+    margin: 0;
+}
+
+.main-header h1{
+    font-family: 'Sansita Swashed', cursive;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    color: rgb(225, 245, 245);
+}
+
+.main-header{
+    background: url(../img/10.jpg);
+    background-size: cover;
+    background-position: fixed;
+    height: 100vh;
+}
+.main-header h2{
+    text-align: center;
+    position: relative;
+    top: 30%;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 80px;
+}
+
+.main-header h2 span{
+    font-weight: bold;
+    color: crimson;
+}
+
+.header{
+    font-family: 'Sansita Swashed', cursive;
+    display: flex;
+    justify-content: space-around;
+}
+.navigation ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+.navigation ul li{
+    list-style: none;
+    margin-left: 20px;
+    padding: 10px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.navigation ul li:hover{
+    background-color: crimson;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+/* end of navigation hear*/
+
+.touch{
+    background-color: azure;
+    padding-top: 10px;
+}
+.touch h2{
+    text-align: center;
+}
+.break{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 80px;
+    text-align: center;
+}
+@media(max-width: 600px){
+    .break{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 80px;
+        text-align: center;
+    }
+}
+
+.touch .footer{
+    background-color: crimson;
+    text-align: center;
+    padding: 1px 0px;
+    color:white;
+}
