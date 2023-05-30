@@ -34,6 +34,11 @@
             <p>This is an admin page</p>
             <a href="receptionstaff.jsp" class="btn">Reception Staff</a>
             <a href="customers.jsp" class="btn">Customers</a>
+            <a href="/HotelManagement/View/JSP/rooms/viewrooms.jsp" class="btn">Rooms</a>
+            <a href="/HotelManagement/View/JSP/booking/bookings.jsp" class="btn">Bookings</a>
+            <br>
+            <br>
+            <br>
             <br>
             <form action="logout" method="post">
                 <button type="submit" class="btn"> Log out </button>

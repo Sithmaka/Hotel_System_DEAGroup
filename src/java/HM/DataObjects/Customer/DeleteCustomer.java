@@ -7,7 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class DeleteCustomer {
-     Connection con;
+    Connection con;
 
     public DeleteCustomer(Connection con) {
         this.con = con;

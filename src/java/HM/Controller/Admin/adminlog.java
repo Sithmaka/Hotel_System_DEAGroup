@@ -4,7 +4,6 @@ import HM.DataObjects.Admin.AdminDAO;
 import HM.Database.DatabaseConnection;
 import HM.Model.Users.Admin;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;

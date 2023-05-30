@@ -31,8 +31,13 @@
             <h3>Hi <span>Customer</span></h3>
             <h1>Welcome <span> <%= customer.getUsername() %> </span></h1>
             <p>This is a customer page</p>
-            <a href="home-admin.php" class="btn">Home</a>
-            <a href="./mang.php" class="btn">Management</a>
+            
+            <a href="/HotelManagement/View/HTML/booking.html" class="btn">Book a Room</a>
+            
+            <a href="/HotelManagement/View/JSP/booking/bookings.jsp" class="btn">My Bookings</a>
+            
+            <br>
+            <br>
             <br>
             <form action="logout" method="post">
                 <button type="submit" class="btn"> Log out </button>

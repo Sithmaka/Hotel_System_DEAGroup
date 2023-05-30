@@ -57,8 +57,8 @@ public final class customers_jsp extends org.apache.jasper.runtime.HttpJspBase
     Connection con = dbc.getCon();
     
 
-      out.write("\n");
-      out.write("\n");
+      out.write('\n');
+      out.write('\n');
       out.write("\n");
       out.write("\n");
       out.write("<!DOCTYPE html>\n");

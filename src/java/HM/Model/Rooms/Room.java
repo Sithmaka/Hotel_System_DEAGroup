@@ -15,6 +15,15 @@ public class Room {
         this.id = id;
     }
 
+    public Room(String type, String roomno, String acstatus, String roomstatus) {
+        this.type = type;
+        this.roomno = roomno;
+        this.acstatus = acstatus;
+        this.roomstatus = roomstatus;
+    }
+    
+    
+    
     public Room(int id, String type, String roomno, String acstatus, String roomstatus) {
         this.id = id;
         this.type = type;

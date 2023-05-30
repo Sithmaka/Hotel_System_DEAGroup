@@ -10,14 +10,14 @@
     
 %>
 
-<%-- 
+<%
     Admin admin = (Admin) session.getAttribute("loggedUser");
     
     if(admin == null) {
         response.sendRedirect("/HotelManagement/View/HTML/login.html");
     }
 
---%>
+%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

@@ -56,6 +56,22 @@
         <servlet-name>register</servlet-name>
         <servlet-class>HM.Controller.User.register</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>addroom</servlet-name>
+        <servlet-class>HM.Controller.Admin.addroom</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>directtoform</servlet-name>
+        <servlet-class>HM.Controller.Booking.directtoform</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>addbooking</servlet-name>
+        <servlet-class>HM.Controller.Booking.addbooking</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>cancelbooking</servlet-name>
+        <servlet-class>HM.Controller.Booking.cancelbooking</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>adminlog</servlet-name>
         <url-pattern>/View/HTML/adminlog</url-pattern>
@@ -113,6 +129,22 @@
     <servlet-mapping>
         <servlet-name>register</servlet-name>
         <url-pattern>/View/HTML/register</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>addroom</servlet-name>
+        <url-pattern>/View/JSP/rooms/addroom</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>directtoform</servlet-name>
+        <url-pattern>/View/JSP/booking/directtoform</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>addbooking</servlet-name>
+        <url-pattern>/View/JSP/booking/addbooking</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cancelbooking</servlet-name>
+        <url-pattern>/View/JSP/booking/cancelbooking</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

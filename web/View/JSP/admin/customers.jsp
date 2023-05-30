@@ -10,7 +10,7 @@
     
 %>
 
-<% 
+<%
     Admin admin = (Admin) session.getAttribute("loggedUser");
     
     if(admin == null) {

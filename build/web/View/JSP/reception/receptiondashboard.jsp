@@ -32,7 +32,8 @@
             <h3>Hi <span>Reception</span></h3>
             <h1>Welcome <span> <%= recep.getUsermail() %> </span></h1>
             <p>This is an reception page</p>
-            <a href="./mang.php" class="btn">Management</a>
+            <a href="/HotelManagement/View/HTML/booking.html" class="btn">Book a Room</a>
+            <a href="/HotelManagement/View/JSP/booking/bookings.jsp" class="btn">Bookings</a>
             <br>
             <form action="logout" method="post">
                 <button type="submit" class="btn"> Log out </button>

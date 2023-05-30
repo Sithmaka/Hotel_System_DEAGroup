@@ -1,10 +1,8 @@
 package HM.Controller.Reception;
 
 import HM.Controller.Admin.adminlog;
-import HM.DataObjects.Admin.AdminDAO;
 import HM.DataObjects.Reception.ReceptionDAO;
 import HM.Database.DatabaseConnection;
-import HM.Model.Users.Admin;
 import HM.Model.Users.Reception;
 import java.io.IOException;
 import java.sql.SQLException;

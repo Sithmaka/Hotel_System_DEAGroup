@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class AddNewCustomer {
-        Connection con;
+    Connection con;
 
     public AddNewCustomer(Connection con) {
         this.con = con;
